@@ -1,7 +1,7 @@
 name: 'Convert to HTML and PDF'
 on: push
 permissions:
-  contents: read|write
+  contents: read
 jobs:
   convert:
     runs-on: ubuntu-latest
